@@ -1,0 +1,8 @@
+#Arduino Circuit
+sensor         arduino
+  !            !
+  v            v
+trigpin -----> 9
+echopin -----> 10
+gnd     -----> ground
+Vcc     -----> 5V
