@@ -2,7 +2,7 @@ import serial
 import time
 import pyautogui as pui
 
-ser = serial.Serial('/dev/ttyACM0', 9600)
+ser = serial.Serial('/dev/ttyACM0', 9600)#change the /dev/ttyACM0 with the port your device is connected to
 time.sleep(5)
 
 def read_sensor_data():
